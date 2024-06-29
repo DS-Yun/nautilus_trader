@@ -85,9 +85,9 @@ from nautilus_trader.live.node import TradingNode
 config = TradingNodeConfig(
     ...,  # Omitted
     data_clients={
-        "BINANCE": {
-            "api_key": "YOUR_BINANCE_API_KEY",
-            "api_secret": "YOUR_BINANCE_API_SECRET",
+        "BINANCE": { ## https://testnet.binancefuture.com/en/futures/BTCUSDT - mock test apikey
+            "api_key": "9fc8102f2ec6908821c7cf77a4f4db268439810f0fbf8bf415cf616b34fcb1fa", # "YOUR_BINANCE_API_KEY",
+            "api_secret": "b105c4bdcf481407d30f8b25c9af9f87252a4946af81d5a8cee594836e150e42", # "YOUR_BINANCE_API_SECRET",
             "account_type": "spot",  # {spot, margin, usdt_future, coin_future}
             "base_url_http": None,  # Override with custom endpoint
             "base_url_ws": None,  # Override with custom endpoint

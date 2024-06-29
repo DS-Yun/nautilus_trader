@@ -1,0 +1,13 @@
+prefix=/Users/yun/Documents/workspace_github/nautilus_trader/.conda
+exec_prefix=/Users/yun/Documents/workspace_github/nautilus_trader/.conda
+libdir=/Users/yun/Documents/workspace_github/nautilus_trader/.conda/lib
+sharedlibdir=/Users/yun/Documents/workspace_github/nautilus_trader/.conda/lib
+includedir=/Users/yun/Documents/workspace_github/nautilus_trader/.conda/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
